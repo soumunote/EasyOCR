@@ -1,0 +1,66 @@
+﻿<Window x:Class="EasyOCR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyOCR"
+        mc:Ignorable="d"
+        Title="EasyOCR" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               FontFamily="Bookman Old Style" 
+               FontStyle="Italic" 
+               FontSize="72">
+            Easy OCR
+        </Label>
+
+        <Grid Grid.Row="1" Margin="30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label HorizontalAlignment="Right" Grid.Row="0" Grid.Column="0" FontSize="24">
+                Image Foloder:
+            </Label>
+            <TextBox x:Name="imageFolderName" Grid.Row="0" Grid.Column="1" FontSize="24"/>
+        </Grid>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right" Margin="0" Height="100">
+            <Button Margin="10" Width="220" Click="cmdYes_Click">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="24">
+                        Start Scanning
+                    </Label>
+                </Grid>
+            </Button>
+            <Button Margin="10" Width="120">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="24">
+                        Colse
+                    </Label>
+                </Grid>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

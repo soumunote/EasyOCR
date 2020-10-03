@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyOCR", "EasyOCR.csproj", "{FC9C0870-645B-4792-801D-7DB3C164F13E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FC25A45-2A2A-44A6-AF3D-0002D08B83A9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9C0870-645B-4792-801D-7DB3C164F13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9C0870-645B-4792-801D-7DB3C164F13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9C0870-645B-4792-801D-7DB3C164F13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9C0870-645B-4792-801D-7DB3C164F13E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C79256C3-C3ED-4241-AF29-164515BD6397}
+	EndGlobalSection
+EndGlobal
