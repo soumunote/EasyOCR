@@ -1,0 +1,20 @@
+{
+  "TessData": "C:\\Program Files (x86)\\Tesseract-OCR\\tessdata",
+  "TargetFolderName": "c:\tmp\ticket",
+  "Fields": [
+    {
+      "Name": "No",
+      "Left": 1500,
+      "Top": 75,
+      "Right": 1875,
+      "Bottom": 170
+    },
+    {
+      "Name": "—LŒøŠúŒÀ",
+      "Left": 720,
+      "Top": 690,
+      "Right": 1230,
+      "Bottom": 800
+    }
+  ]
+}

@@ -27,7 +27,17 @@ namespace EasyOCR
 
         private void cmdYes_Click(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
+            var resultFileName = System.IO.Path.Combine(this.imageFolderName.Text, "scanResult.txt");
+            var wnd = new ProgressWindow(this.imageFolderName.Text, resultFileName);
+            wnd.Owner = this;
+            wnd.ShowDialog();
+        }
+
+        private void cmdClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

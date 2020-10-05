@@ -23,4 +23,4 @@ MITライセンスとしますが、もしも
 ## 参考にさせて頂いたサイト
 - [GAMMASOFT Tesseract OCR を　Windows　にインストールする](https://gammasoft.jp/blog/tesseract-ocr-install-on-windows/)  
 - [GAMMASOFT Python で OCR を実行する方法](https://gammasoft.jp/blog/ocr-by-python/)  
-- []
+- [日本語 OCR による文字認識 ～ WPF などの .NEt Framework アプリや UWP アプリから Windows 10 の OCR エンジンを使う](https://codezine.jp/article/detail/10748?p=3)

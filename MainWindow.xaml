@@ -33,13 +33,15 @@
             <Label HorizontalAlignment="Right" Grid.Row="0" Grid.Column="0" FontSize="24">
                 Image Foloder:
             </Label>
-            <TextBox x:Name="imageFolderName" Grid.Row="0" Grid.Column="1" FontSize="24"/>
+            <TextBox x:Name="imageFolderName" Grid.Row="0" Grid.Column="1" FontSize="24">
+                C:\tmp\ticket
+            </TextBox>
         </Grid>
 
         <StackPanel Grid.Row="2"
                     Orientation="Horizontal" 
                     HorizontalAlignment="Right" Margin="0" Height="100">
-            <Button Margin="10" Width="220" Click="cmdYes_Click">
+            <Button Margin="10" Width="220" Click="cmdYes_Click" IsDefault="True">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -50,7 +52,7 @@
                     </Label>
                 </Grid>
             </Button>
-            <Button Margin="10" Width="120">
+            <Button Margin="10" Width="120" Click="cmdClose_Click" IsCancel="True">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
